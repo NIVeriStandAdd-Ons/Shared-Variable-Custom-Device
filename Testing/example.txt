@@ -1,0 +1,6 @@
+Boolean Control,26,/Shared Variable Test Library/Boolean Control,Read
+Boolean Indicator,26,/Shared Variable Test Library/Boolean Indicator,Write
+Knob,11,/Shared Variable Test Library/Knob,Read
+String Control,27,/Shared Variable Test Library/String Control,Read
+String Indicator,27,/Shared Variable Test Library/String Indicator,Write
+Vertical Fill Slide,11,/Shared Variable Test Library/Vertical Fill Slide,Write

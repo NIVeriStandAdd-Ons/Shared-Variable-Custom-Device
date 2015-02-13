@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomDevice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Custom Device.xsd">
+<XSDVersion Major="2010" Minor="0" Fix="0" Build="0" />
+  <AddMenu>
+    <eng>National Instruments::Shared Variable</eng>
+    <loc>National Instruments::Shared Variable</loc>
+  </AddMenu>
+  <Version>1.0</Version>
+  <Type>Inline HW Interface</Type>
+  <MaxOccurrence>2474</MaxOccurrence>
+  <MainPageGUID>f341660c-60a9-4d85-aa66-ad00d8329358</MainPageGUID>
+  <InitializationVI>
+    <Type>Action</Type>
+    <Item2Launch>
+      <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\Shared Variable\Shared Variable Configuration.llb\Shared Variable Initialization VI.vi</Path>
+    </Item2Launch>
+  </InitializationVI>
+  <CustomDeviceVI>
+		<SourceDistribution>
+			<Source>
+				<SupportedTarget>PharlapWindows</SupportedTarget>
+				<Source>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\Shared Variable\Shared Variable Engine.llb\Shared Variable RT Driver VI.vi</Path>
+				</Source>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Shared Variable\Shared Variable Engine.llb\Shared Variable RT Driver VI.vi</RealTimeSystemDestination>
+			</Source>
+		</SourceDistribution>
+	</CustomDeviceVI>
+  <Dependencies />
+  <Pages>
+    <Page>
+      <Name>
+        <eng>Shared Variable</eng>
+        <loc>Shared Variable</loc>
+      </Name>
+      <GUID>f341660c-60a9-4d85-aa66-ad00d8329358</GUID>
+      <Glyph>
+			  <Type>To Common Doc Dir</Type>
+			  <Path>Custom Devices\Shared Variable\Glyphs\NetworkVariable.png</Path>
+		  </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		    <Path>Custom Devices\Shared Variable\Shared Variable Configuration.llb\Shared Variable Main Page.vi</Path>
+      </Item2Launch>
+    </Page>
+    
+<Page>
+      <Name>
+        <eng>Double Page</eng>
+        <loc>Double Page</loc>
+      </Name>
+      <GUID>745b2fb1-1cbc-4e0d-8c6b-85ee92b63937</GUID>
+      <Glyph>
+			<Type>To Common Doc Dir</Type>
+			<Path>Custom Devices\Shared Variable\Glyphs\Dbl.png</Path>
+		</Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\Shared Variable\Shared Variable Configuration.llb\Double Page.vi</Path>
+      </Item2Launch>
+    </Page>
+<Page>
+      <Name>
+        <eng>String Page</eng>
+        <loc>String Page</loc>
+      </Name>
+      <GUID>4a3273d2-25cf-4c75-aa6c-6d863714b97d</GUID>
+      <Glyph>
+			<Type>To Common Doc Dir</Type>
+			<Path>Custom Devices\Shared Variable\Glyphs\string.png</Path>
+		</Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\Shared Variable\Shared Variable Configuration.llb\String Page.vi</Path>
+      </Item2Launch>
+    </Page>
+<Page>
+      <Name>
+        <eng>Boolean Page</eng>
+        <loc>Boolean Page</loc>
+      </Name>
+      <GUID>40ef8b4b-fafe-4302-bf5b-f1049513b872</GUID>
+      <Glyph>
+			<Type>To Common Doc Dir</Type>
+			<Path>Custom Devices\Shared Variable\Glyphs\Boolean2.png</Path>
+		</Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\Shared Variable\Shared Variable Configuration.llb\Boolean Page.vi</Path>
+      </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Status Page</eng>
+        <loc>Status Page</loc>
+      </Name>
+      <DisallowRenaming>true</DisallowRenaming>
+      <DeleteProtection>true</DeleteProtection>
+      <GUID>1e09d8c3-69f5-401b-b7dc-c892426ca993</GUID>
+      <Glyph>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Shared Variable\Glyphs\status2.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Shared Variable\Shared Variable Configuration.llb\Status Page.vi</Path>
+      </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Write Page</eng>
+        <loc>Write Page</loc>
+      </Name>
+      <DisallowRenaming>true</DisallowRenaming>
+      <DeleteProtection>true</DeleteProtection>
+      <GUID>efcd8c5b-4fff-4983-a7df-34ee49fee23a</GUID>
+      <Glyph>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Shared Variable\Glyphs\write.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Shared Variable\Shared Variable Configuration.llb\Write Page.vi</Path>
+      </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Read Page</eng>
+        <loc>Read Page</loc>
+      </Name>
+      <DisallowRenaming>true</DisallowRenaming>
+      <DeleteProtection>true</DeleteProtection>
+      <GUID>56684d90-57c0-46bf-95c3-c3ec5ca5eaaf</GUID>
+      <Glyph>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Shared Variable\Glyphs\read2.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Shared Variable\Shared Variable Configuration.llb\Read Page.vi</Path>
+      </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Connection Status Page</eng>
+        <loc>Connection Status Page</loc>
+      </Name>
+      <DisallowRenaming>true</DisallowRenaming>
+      <DeleteProtection>true</DeleteProtection>
+      <GUID>78b8a558-7db9-4af3-b3a2-92998c4dbfe3</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\default fpga channel.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Shared Variable\Shared Variable Configuration.llb\Connection Status Page.vi</Path>
+      </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Error Code Page</eng>
+        <loc>Error Code Page</loc>
+      </Name>
+      <DisallowRenaming>true</DisallowRenaming>
+      <DeleteProtection>true</DeleteProtection>
+      <GUID>ddf28850-23ce-4531-82d8-c13825fbca57</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\default fpga channel.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Shared Variable\Shared Variable Configuration.llb\Error Code Page.vi</Path>
+      </Item2Launch>
+    </Page>
+  </Pages>
+  <CustomXML>
+    <Dummy></Dummy>
+  </CustomXML>
+</CustomDevice>
