@@ -39,25 +39,22 @@
 				<Property Name="Bld_buildSpecName" Type="Str">Configuration</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/Users/lsarcion/Desktop/Shared Variable Custom Device/Built/Shared Variable</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/Shared Variable</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{0BAE057C-E4B2-4CC0-8BFA-A96E155D7F59}</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/Users/lsarcion/Desktop/Shared Variable Custom Device/Built/Shared Variable</Property>
-				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built/Shared Variable</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/Users/lsarcion/Desktop/Shared Variable Custom Device/Built/Shared Variable/Data</Property>
-				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[1].path" Type="Path">../Built/Shared Variable/Data</Property>
 				<Property Name="Destination[2].destName" Type="Str">Shared Variable Configuration LLB</Property>
-				<Property Name="Destination[2].path" Type="Path">/C/Users/lsarcion/Desktop/Shared Variable Custom Device/Built/Shared Variable/Shared Variable Configuration.llb</Property>
-				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[2].path" Type="Path">../Built/Shared Variable/Shared Variable Configuration.llb</Property>
 				<Property Name="Destination[2].type" Type="Str">LLB</Property>
 				<Property Name="Destination[3].destName" Type="Str">Glyphs</Property>
-				<Property Name="Destination[3].path" Type="Path">/C/Users/lsarcion/Desktop/Shared Variable Custom Device/Built/Shared Variable/Glyphs</Property>
-				<Property Name="Destination[3].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[3].path" Type="Path">../Built/Shared Variable/Glyphs</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A348D89D-9501-4EBC-9572-EC9D8D1034C3}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{15C31C45-5133-43DE-B574-AEC25742DF0A}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Custom Device Shared Variable.xml</Property>
@@ -87,20 +84,18 @@
 				<Property Name="Bld_buildSpecName" Type="Str">Engine</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/Users/lsarcion/Desktop/Shared Variable Custom Device/Built/Shared Variable</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/Shared Variable</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8AC560C4-1F8B-428E-9F06-D685DA7033C8}</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/Users/lsarcion/Desktop/Shared Variable Custom Device/Built/Shared Variable</Property>
-				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built/Shared Variable</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/Users/lsarcion/Desktop/Shared Variable Custom Device/Built/Shared Variable/Data</Property>
-				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[1].path" Type="Path">../Built/Shared Variable/Data</Property>
 				<Property Name="Destination[2].destName" Type="Str">Shared Variable Engine LLB</Property>
-				<Property Name="Destination[2].path" Type="Path">/C/Users/lsarcion/Desktop/Shared Variable Custom Device/Built/Shared Variable/Shared Variable Engine.llb</Property>
-				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[2].path" Type="Path">../Built/Shared Variable/Shared Variable Engine.llb</Property>
 				<Property Name="Destination[2].type" Type="Str">LLB</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A348D89D-9501-4EBC-9572-EC9D8D1034C3}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{15C31C45-5133-43DE-B574-AEC25742DF0A}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
