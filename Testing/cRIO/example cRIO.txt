@@ -1,0 +1,6 @@
+Boolean Control,26,/Shared Variable Test Library cRIO/Boolean Control,Read
+Boolean Indicator,26,/Shared Variable Test Library cRIO/Boolean Indicator,Write
+Knob,11,/Shared Variable Test Library cRIO/Knob,Read
+String Control,27,/Shared Variable Test Library cRIO/String Control,Read
+String Indicator,27,/Shared Variable Test Library cRIO/String Indicator,Write
+Vertical Fill Slide,11,/Shared Variable Test Library cRIO/Vertical Fill Slide,Write
